@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vlogging</title>
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+       background: url("https://ak.picdn.net/shutterstock/videos/1042036123/thumb/1.jpg"); 
+      background: cover;
+    }
+  
+    .left {
+      /*  display: inline-block;*/
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 20px;
+        top: 0px;
+    }
+
+    .left img {
+        width: 150px;
+      /* filter: invert(100%);*/
+    }
+    .right img{
+        width: 850px;
+        padding-top: 14%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+    }
+   
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 29px auto;
+    
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 100px;
+        top: 45px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display:flex;
+        align-items: top;
+      
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 30px;
+       
+    }
+
+    .navbar li a {
+        color: rgb(7, 6, 6);
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(116, 72, 235);
+
+    }
+    .btn-l{
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: rgb(252, 252, 252);
+        color: rgb(5, 0, 0);
+        padding: 4px 14px;
+        border:  rgb(250, 247, 247);
+        border-radius: 30px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: rgb(245, 242, 48);
+        color: rgb(5, 0, 0);
+        padding: 4px 14px;
+        border:  gray;
+        border-radius: 30px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(25, 0, 255);
+    }
+    .btn-l:hover {
+        background-color: rgb(85, 154, 243);
+    }
+
+    .container {
+     
+        padding: 75px;
+        width: 34%;
+      
+     /*   border-radius: 28px;*/
+    
+    }
+
+   .container h1 {
+        text-align: center;
+        font-size: 100px;
+        margin-top: 1px;
+        font-family: 'Oswald', sans-serif;
+        padding-top: ;
+    }
+    .container h2 {
+        text-align: center;
+        font-size: 80px;
+        margin-top: 1px; 
+        font-family: 'Oswald', sans-serif; 
+    }
+    .para{
+        font-size: 25px;
+        font-size: 'Oswald', sans-serif;
+    }
+    
+    .container button {
+         font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: red;
+        color: rgb(255, 251, 251);
+        padding: 4px 14px;
+        border:  gray;
+        border-radius: 30px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .btn1:hover {
+        background-color: rgb(25, 0, 255);
+    }
+    .btn2:hover {
+        background-color: rgb(25, 0, 255);
+    }
+</style>
+</head>
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="https://image.shutterstock.com/image-vector/creative-modern-minimal-typography-vlog-260nw-1239305713.jpg" alt="">
+           <!--<div>vlog</div> -->
+        </div>
+        <div class="right">
+            <img src="vlogimage.jpg"
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Vlog </a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn-l">Login</button>
+            <button class="btn">Signup</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>VIDEO</h1>
+        <h2>Blogging</h2>
+        <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quas inventore dolorum rem nostrum voluptates consequuntur. Officiis officia cupiditate quia ea, porro laudantium qui molestiae reiciendis aperiam, sed aspernatur Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn1">Get Started</button>
+        <button class="btn2">Free demo</button>
+        
+    </div>
+</body>
+
+</html>
+
+</body>
+</html>
